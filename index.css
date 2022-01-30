@@ -1,0 +1,175 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('GraphikLight.otf');
+}
+
+.all_screen {
+   
+    background-color: black;
+    display: flex;
+    width: 100%;
+}
+
+
+
+.left_part {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: table-column;
+    position: relative;
+    width: 50%;
+}
+
+.desert_logo {
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 20%;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.middle {
+    margin-top: 20%;
+    margin-left: 4%;
+    margin-bottom: 200px;
+}
+
+.tilted_titel1 {
+    color: white;
+    font-size: 55px;
+
+}
+
+.tilted_titel2 {
+    color: white;
+    font-size: 55px;
+}
+
+.main_text {
+    margin-top: 5%;
+    color: white;
+    font-size: 25px;
+    font-family: Calibri;
+    width: 80%;
+}
+
+.button_line {
+    margin-top: 10%;
+    display: flex;
+    width: 80%
+}
+
+.btn_inform {
+    width: 50%;
+    height: 40px;
+    color: white;
+    font-family: Calibri;
+    text-align: center;
+    padding-top: 15px;
+    border: white 1px solid;
+    margin-right: 20px;
+}
+.btn_inform:hover {
+    opacity: 0.5;
+    transition: all 0.2s linear 0s;
+}
+
+
+.btn_subsc {
+    width: 50%;
+    height: 42px;
+    color: white;
+    font-family: Calibri;
+    text-align: center;
+    padding-top: 15px;
+    background-color: darkred;
+}
+.btn_subsc:hover {
+    opacity: 0.5;
+    transition: all 0.2s linear 0s;
+}
+
+
+.social_media {
+    width: 35%;
+    position: absolute;
+    bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+    margin-left: 4%;
+}
+
+.text {
+    font-family: 'Arial Narrow';
+    text-align: center;
+    color: #c0c0c0;
+    padding-top: 6px;
+}
+
+.FB {
+    margin: auto;
+    height: 60%;
+    filter: invert(100%);
+}
+.FB:hover {
+    opacity: 0.5;
+    transition: all 0.2s linear 0s;
+}
+
+.TW {
+    margin: auto;
+    height: 80%;
+    filter: invert(100%);
+}
+.TW:hover {
+    opacity: 0.5;
+    transition: all 0.2s linear 0s;
+}
+
+.G {
+    margin: auto;
+    height: 90%;
+    filter: invert(100%);
+}
+.G:hover {
+    opacity: 0.5;
+    transition: all 0.2s linear 0s;
+}
+
+.In {
+    margin: auto;
+    height: 60%;
+    filter: invert(100%);
+}
+.In:hover {    
+    opacity: 0.5;
+    transition: all 0.2s linear 0s;
+}
+
+
+
+
+.right_part {
+    width: 50%;
+}
+
+.picture {
+    height: 100%;
+}
+
+.pic {
+    width: 100%;
+    height:100%;
+}
